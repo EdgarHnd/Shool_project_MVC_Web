@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon Projet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../public/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../public/css/perso_css.css" rel="stylesheet"/>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <div class="container">
+          <div class="jumbotron">
+            <h1>Mon Projet</h1>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>1)Liste des récoltes</h4>
+            </div>
+            <div class="panel-body">
+                <p>Un affichage de la table des récoltes de la base de données
+                en conservant le format de la base de données</p>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>2)Créer une récolte</h4>
+            </div>
+            <div class="panel-body">
+                <p>Un formulaire qui permet de créer une nouvelle récolte.
+                Je récupére dans les tables producteur et vin les id nécessaires à la création de la récolte.</p>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>3)Supprimer une récolte</h4>
+            </div>
+            <div class="panel-body">
+                <p>Un formulaire qui permet de supprimer une récolte éxistante.
+                Je récupére dans les tables producteur et vin les id nécessaires à la suppréssion de la récolte</p>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>4)Meilleurs années de récolte</h4>
+            </div>
+            <div class="panel-body">
+                <p>Un tableau qui liste les meilleurs années de récolte selon cette base de données.
+                Cela permet d'utiliser la relation entre la table des vin et et
+                la table des récoltes en regroupant les récoltes par années.</p>
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>5)Récoltes par producteurs</h4>
+            </div>
+            <div class="panel-body">
+                <p>Un affichage un plus complexe des informations données par la table des récoltes.
+                Cela permet de rassembler les données des trois tables sous un même affichage.
+                Je récupère les producteurs qui sont aussi présent dans la table des récoltes et
+                j'effectue pour chacun d'eu une requette dans la table des récoltes qui permet d'afficher 
+                les données de vin et de récolte pour ce producteur.</p>
+            </div>
+          </div>
+      </div>
+    <hr/>
+    <ul>
+      <li>Edgar Haond, Technologies du Web LO07</li>
+    </ul>
+    <hr/>
+  </body>
+</html>

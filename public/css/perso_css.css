@@ -1,0 +1,14 @@
+
+body {
+    background-color: cornsilk;
+}
+
+.container {
+    margin-top: 80px;
+    background-color: cornsilk;
+    width: 90%;
+}
+
+.jumbotron {
+  background-color: seashell;
+}
